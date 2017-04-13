@@ -1,0 +1,198 @@
+/**estilos**/
+*{
+  font-family: sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+body {
+  background: url(img/topography.png);
+}
+figure {
+  margin: 0;
+}
+.capital {
+  text-transform: uppercase;
+}
+.color1 {
+  color:#404040;
+}
+.color2 {
+  color: #D80404;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.alignR {
+  text-align: right;
+}
+.alignL {
+  text-align: left;
+}
+
+header{
+  padding: 1em;
+  margin: 0px auto;
+  width: 1280px;
+}
+header .img-wrapper {
+  background: url(img/01_huidobro.jpg) no-repeat #FFF;;
+  height: 300px;
+}
+main {
+   margin: 0px auto;
+  width: 1280px;
+}
+
+h1 {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+h1 span {
+  font-weight: 700;
+  font-size: 2em; 
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 0.5em 0.3em;
+
+}
+ul li:hover {
+  border-bottom: 2px solid #D80404;
+}
+ul li:active {
+  border-bottom: 2px solid #581C1C;
+}
+ul li:visited {
+  border-bottom: 2px solid #DE4747;
+}
+ul li:focus {
+  border: 2px solid #FF530D;
+  outline: none;
+}
+ul li a {
+  font-size: 1em; 
+  font-weight: 900;
+}
+
+
+
+header nav {
+  display: block;
+  padding: 1em;
+  text-align: right;
+}
+.img-wrapper {
+  border-bottom: 2px solid #404040;
+}
+
+.wrapper {
+  padding: 1em;
+}
+
+
+.articulos {
+  box-sizing: border-box;
+  width: 60%;
+  display: inline-block;
+   
+}
+.biografia {
+  float: right;
+  width: 40%;
+  box-sizing: border-box;
+}
+aside {
+  padding:0 1em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+#bio {
+  position: relative;
+}
+#bio p {
+  line-height: 2;
+  text-align: justify;
+  font-size: 1.1em;
+  
+}
+#bio div {
+  width: 50%;
+}
+blockquote {
+  display: inline-block;
+}
+blockquote h2 {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 500;
+  text-align: right;  
+  color: #D80404;
+}
+article.poema {
+  position: relative;
+  background: #F5F5F5;
+ margin: 0 0 2em 0;
+}
+.poema  figure {
+ border: 2px solid #404040;
+ width: 40%;
+ float: left;
+top: 16px;
+left: 10px;
+position: inherit;
+
+}
+figure img {
+  width: 100%;
+}
+.poema div {
+  width: 50%;
+  display: inline-block;
+  padding: 0 1em;
+  margin: 0 1em;
+}
+.poema h2 {
+  line-height: 2;
+  background: #404040;
+  color: #f2f2f2;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+}
+
+.poema p {
+  font-size: 1em;
+ // display: inline-block;
+  line-height: 1.5;
+  word-spacing: 0.1em;
+  //width: 60%;
+}
+
+
+.image {
+ position: absolute;
+ top: 33%;
+}
+
+
+
+
+
+/*footer*/
+footer {
+ margin: 0px auto;
+width: 1280px;
+}
+footer h3 {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 3px;
+  border-bottom: 2px solid #404040;
+
+}
